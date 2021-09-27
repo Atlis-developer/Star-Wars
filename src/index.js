@@ -5,10 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './fonts/HelveticaRegular/HelveticaRegular.ttf';
 import './fonts/HelveticaThin/HelveticaThin.ttf';
+import { Provider } from 'react-redux';
+import { store } from './Redux/store-redux'
 
 ReactDOM.render(
   <React.StrictMode>
+    <Provider store={store}>
     <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

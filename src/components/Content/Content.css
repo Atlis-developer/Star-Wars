@@ -6,3 +6,47 @@
   font-family: "HelveticaThin";
  }
 
+.form-control{
+  position: absolute;
+left: 7.22%;
+right: 88.68%;
+top: 27.9%;
+bottom: 69.09%;
+border: none;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 104%;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+.form-control-heigt{
+  position: absolute;
+left: 15.14%;
+right: 82.5%;
+top: 27.9%;
+bottom: 69.09%;
+border: none;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 104%;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+.form-control-age{
+  position: absolute;
+  left: 21.32%;
+  right: 76.94%;
+  top: 27.9%;
+  bottom: 69.09%;
+  border: none;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 104%;
+  color: rgba(0, 0, 0, 0.8);
+}

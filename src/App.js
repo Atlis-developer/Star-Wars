@@ -1,8 +1,8 @@
 import './App.css';
 import React from 'react';
 import Header from './components/Header/Header';
-import Content from './components/Content/Content';
 import Footer from './components/Footer/Footer';
+import ContentContainer from './components/Content/ContentContainer';
 
 
 
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="App">
       <Header/>
-      <Content/>
+      <ContentContainer/>
       <Footer/>
     </div>
   );
