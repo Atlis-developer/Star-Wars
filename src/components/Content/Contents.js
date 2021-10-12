@@ -1,4 +1,4 @@
-import './Content.css';
+import './Contents.css';
 import React from 'react';
 import Content from './Content';
 import Paginator from '../../utils/Paginator';
@@ -8,7 +8,7 @@ const Contents = (props) => {
 
   return (
     <div className="content">
-      <h1 className='font-face-hr'>People</h1>
+      <h1 className='content-h1 font-face-hr'>People</h1>
      <Content contentPage={props.contentPage}/>
      
     </div>

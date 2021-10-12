@@ -6,13 +6,9 @@
   font-family: "HelveticaThin";
  }
 
-.content h1{
-  position: absolute;
-width: 100px;
-height: 47px;
-left: 104px;
-top: 144px;
-
+.content-h1{
+text-align: left;
+margin-left: 5%;
 font-style: normal;
 font-weight: normal;
 font-size: 32px;

@@ -6,7 +6,9 @@ import Logo from '../../images/Star_Wars.png'
 const Header = () => {
   return (
     <div className="Header">
+      <div className='Header-logo'>
       <img src={Logo} alt='logo' className='logo' />
+      </div>
       <div className='container'>
         <div className='container-inside-language'>
           <div className='lang font-face-hr'>En&#8194;<span className='arrow'></span></div>

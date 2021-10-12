@@ -7,46 +7,38 @@
  }
 
 .footer{
-  position: absolute;
+  display: flex;
+  flex-direction: column;
   width: 1440px;
   height: 195px;
-  left: 0px;
-  top: 1654px;
   background: #F2EEEE;
   box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.03);  
 }
 
-.footer .logo{
-  position: absolute;
-left: 7.27%;
-right: 83.29%;
-top: 22.56%;
-bottom: 57.2%;
+.footer .footer-logo{
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 5% 0 5%;
+}
 
+.footer-logo .logo{
+  width: 104.65px;
+  height: 30.4px;
+}
+
+.footer .footer-txt{
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 5% 0 5%;
 }
 
 .footer .instagram {
-  position: absolute;
-  left: 90%;
-  right: 7.22%;
-  top: 22.05%;
-  bottom: 57.44%;
+  margin-left: 5px;
 }
 
-.footer .facebook{
-  position: absolute;
-  left: 86.11%;
-  right: 11.11%;
-  top: 22.05%;
-  bottom: 57.44%;
-}
 
 .footer .reserved{
-position: absolute;
-left: 7.22%;
-right: 84.86%;
-top: 76.41%;
-bottom: 10.77%;
+
 
 font-style: normal;
 font-weight: 300;
@@ -56,11 +48,7 @@ color: #100F0F;
 }
 
 .footer .policy{
-  position: absolute;
-left: 86.81%;
-right: 7.22%;
-top: 76.41%;
-bottom: 10.77%;
+
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
