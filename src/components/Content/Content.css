@@ -67,6 +67,7 @@ color: rgba(0, 0, 0, 0.8);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1vw;
+  margin-top: 2%;
 }
 
 .content-person .content-container{
@@ -81,8 +82,8 @@ color: rgba(0, 0, 0, 0.8);
   position: absolute;
     left: 0;
     color: #fff;
-    font-size: 30px;
-    line-height: 55px;
+    font-size: 24px;
+    line-height: 45px;
     padding: 10px;
     text-align: left;
 }

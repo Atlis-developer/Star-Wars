@@ -57,36 +57,3 @@ export const contentThunkCreator = () => async (dispatch) =>{
 }
 
 
-/*export const userThunkCreator = (page, pageSize) =>{
-    return (dispatch) =>{ 
-        dispatch(funcFetching(true));
-        usersAPI.getUsers(page, pageSize).then(data => {
-            dispatch(setUsers(data.items));
-            dispatch(totalPage(data.totalCount));
-            dispatch(funcFetching(false));
-        })
-    }
-}
-
-export const follow = (userId) =>{
-    return (dispatch) =>{
-        dispatch(funcProgress(true, userId));
-        usersAPI.followFriends(userId).then(response => {              
-            if (response.data.resultCode === 0) {
-                dispatch(followConfirm(userId));
-            }dispatch(funcProgress(false,userId));
-        })
-    }
-}
-
-export const unFollow = (userId) =>{
-    return (dispatch) =>{
-        dispatch(funcProgress(true, userId));
-        usersAPI.unFollowFriends(userId).then(response => {
-            if (response.data.resultCode === 0) {
-                dispatch(unFollowConfirm(userId));
-            }
-            dispatch(funcProgress(false, userId));
-        })
-    }
-}*/
