@@ -16,3 +16,9 @@
  .font-face-gm {
   font-family: "HelveticaThin";
  }
+
+ @media (max-width: 700px){
+   .App{
+     width: 100vw;
+   }
+ }

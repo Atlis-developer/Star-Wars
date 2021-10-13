@@ -56,3 +56,8 @@ line-height: 180%;
 
 color: #100F0F;
 }
+@media (max-width: 700px){
+  .footer{
+    width: 100vw;
+  }
+}

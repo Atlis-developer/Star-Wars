@@ -116,3 +116,8 @@ top: 0px;
     color: #000000;
     }
 
+    @media (max-width: 700px){
+      .Header{
+        width: 100vw;
+      }
+    }

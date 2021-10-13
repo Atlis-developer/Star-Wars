@@ -11,8 +11,8 @@ const Content = (props) => {
   let [sort, setSort] = useState(null);
 
 
-  
-  
+
+
 
   let users = props.contentPage.users;
   let photos = props.contentPage.photos;
@@ -42,12 +42,17 @@ const Content = (props) => {
     )
   }
 
-let param = users.filter(u=> u.height == height)
 
 
+  if (sort == 'Eye color') {
+    users = users.filter(u => u.eye_color == eyeColor)
+  }else if (sort == 'Height') {
+    users = users.filter(u => u.height == height)
+  }else if(sort == 'Age'){
+    users = users.filter(u => u.birth_year == age)
+  }
 
 
-  console.log(param)
 
 
 
@@ -63,7 +68,7 @@ let param = users.filter(u=> u.height == height)
               </option>)}
           </select>
           <select name="heigt" onChange={changeSelectHeigt} className="form-control-heigt font-face-hr">
-            <option>Heigt</option>
+            <option>Height</option>
             {props.contentPage.users.map(user =>
               <option key={user.url} value={user.height}>
                 {user.height}
@@ -83,8 +88,8 @@ let param = users.filter(u=> u.height == height)
             <option key={1} value='Eye color'>
               Eye color
             </option>
-            <option key={2} value='Heigt'>
-              Heigt
+            <option key={2} value='Height'>
+              Height
             </option>
             <option key={3} value='Age'>
               Age
@@ -99,7 +104,7 @@ let param = users.filter(u=> u.height == height)
             <span>
               Name: {u.name}<br />
               Eye color: {u.eye_color}<br />
-              Heigt: {u.height}<br />
+              Height: {u.height}<br />
               Age: {u.birth_year}<br />
             </span>
           </div>)}
